@@ -1,0 +1,38 @@
+h1{
+    color: black;
+}
+/* {
+    border:solid cornflowerblue;
+} */
+.portals {
+    display: flex;
+        justify-content: space-evenly ;
+            background-color: crimson;
+                    margin-left: 1cm;
+                        margin-right: 1cm;
+  }
+.social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body{
+    margin: -5px;
+    border: 5px solid antiquewhite;
+    background-color: #b8b8b8;
+    flex: wrap;
+}
+
+.ab p{
+    opacity:0;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 200px;
+    color: aliceblue;
+}
+.ab:hover p{
+    opacity:1;
+}
+.ab:hover a{
+    opacity:0.5;
+}
